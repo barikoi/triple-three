@@ -1,0 +1,16 @@
+.credit {
+  padding: 4px;
+  display: inline-block;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  z-index: 999 !important;
+  background: white;
+
+  #photo {
+    img {
+      max-width: 30px;
+
+    }
+  }
+}

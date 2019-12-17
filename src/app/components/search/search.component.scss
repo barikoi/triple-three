@@ -1,0 +1,38 @@
+.search-form {
+  // width: 350px;
+  // width: 100%;
+  z-index: 9999;
+  position: absolute;
+  padding: 0;
+  top: 12px;
+  left: 12px;
+}
+
+.mat-form-field {
+  width: 375px;
+  // padding: 0 12px;
+}
+
+.mat-form-field-wrapper {
+  // padding: 0 50px 0 15px;
+  // border: 0;
+  width: 350px !important;
+  background: white !important;
+  // // color: #484848;
+  // // caret-color: currentColor;
+  // border-top: 4px solid transparent;
+  // border-bottom: 2px solid transparent;
+}
+
+
+.mat-card {
+  padding-bottom: 0;
+  padding-top: 4px;
+}
+
+.example-full-width {
+  // width: 100%;
+  background: white;
+}
+
+

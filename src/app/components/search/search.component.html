@@ -1,0 +1,31 @@
+<div class="search-form">
+            <mat-card class="mat-card">
+              <form>
+                <mat-form-field class="example-full-width">
+                  <input class="example-full-width" matInput aria-label="State" [matAutocomplete]="auto" [formControl]="query" placeholder="Search.." >
+                  <button mat-button *ngIf="query" matSuffix mat-icon-button aria-label="Clear"
+                  matTooltip="Clear"
+                  aria-label="Button that clears input field" 
+                  (click)="clearField()">
+                    <mat-icon>close</mat-icon>
+                  </button>
+                  
+                  
+              </mat-form-field>
+              <!-- <div *ngIf="searchResult">
+                 
+                  </div> -->
+                  
+                  <mat-autocomplete #auto="matAutocomplete" >
+                      <mat-option *ngFor="let place of searchResult  " [value]="place.Address" (click)="sendDataToMap(place)" >
+                        {{ place.Address }}
+                      </mat-option>
+                    </mat-autocomplete>
+                  
+              </form>
+            </mat-card>
+        
+</div>
+
+
+    
